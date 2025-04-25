@@ -14,7 +14,7 @@ language: Python
 # Resumen:
 - Generé el código para abrir los datos satelitales y generar el dataset.
 - El dataset es abierto con PyTorch+TorchGeo para segmentación semántica multiclase.
-- La clienta luego hará su estudio con mi aporte.
+- La clienta luego hará su estudio utilizando con mi aporte.
 
 
 ## Imágenes
