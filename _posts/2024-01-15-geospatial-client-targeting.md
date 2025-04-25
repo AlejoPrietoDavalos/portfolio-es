@@ -1,6 +1,6 @@
 ---
 author: alejo_prieto_davalos
-title: Recopilación y ranking de posibles clientes usando datos geoespaciales [private]
+title: <span style="color:#c90245;">[private]</span> Recopilación y ranking de posibles clientes usando datos geoespaciales
 date: 2024-01-15 12:00:00 +0000
 categories: [GeoSpatial]
 tags: [geopandas, matplotlib, qgis, google_places]

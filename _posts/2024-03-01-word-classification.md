@@ -1,6 +1,6 @@
 ---
 author: alejo_prieto_davalos
-title: Clasificación de palabras con SpaCy [private]
+title: <span style="color:#c90245;">[private]</span> Clasificación de palabras con SpaCy (Prueba de concepto)
 date: 2024-03-01 12:00:00 +0000
 categories: [MachineLearning, DeepLearning]
 tags: [spacy, nltk, pandas, numpy]

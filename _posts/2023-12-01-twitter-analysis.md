@@ -1,6 +1,6 @@
 ---
 author: alejo_prieto_davalos
-title: Análisis de cuentas de Twitter usando Grafos [public]
+title: <span style="color:#078c0e;">[public]</span> Análisis de cuentas de Twitter usando Grafos
 date: 2023-12-01 12:00:00 +0000
 categories: [SocialNetworks, Crypto]
 tags: [networkx, igraph, mongodb, web_scraping, crypto]

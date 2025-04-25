@@ -1,6 +1,6 @@
 ---
 author: alejo_prieto_davalos
-title: Teledetección de barcos usando Imágenes Satelitales SAR [private]
+title: <span style="color:#c90245;">[private]</span> Teledetección de barcos usando Imágenes Satelitales SAR
 date: 2023-10-01 12:00:00 +0000
 categories: [GeoSpatial, Satellite, AI, ObjectDetection]
 tags: [pytorch, geopandas, rasterio, qgis, numpy, matplotlib, plotly]
