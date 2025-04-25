@@ -16,7 +16,7 @@ language: Python
 - El objetivo es detectar actividades sospechosas, pesca ilegal, contrabando u otra finalidad.
 
 
-## Imágenes
+## Imágenes:
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 
   <!-- SHIPS IN WATER -->

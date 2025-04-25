@@ -15,7 +15,7 @@ language: Python
 - Prueba de concepto para el uso de SpaCy y clasificar segmentos de texto.
 - La calidad de los datos no me permitió seguir explorando, pero aprendí la técnica.
 
-# Imágenes
+# Imágenes:
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
     <img src="/media/projects/word_classification/labels_colors.jpeg" alt="Labels." style="max-width: 300px; width: 100%; height: auto;">

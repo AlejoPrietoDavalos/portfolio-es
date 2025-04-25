@@ -17,8 +17,7 @@ language: Python
 - La clienta luego hará su estudio utilizando mi aporte.
 
 
-## Imágenes
-
+## Imágenes:
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
     <img src="/media/projects/ambiental_project/batch.png" alt="Dataset generado." style="max-width: 300px; width: 100%; height: auto;">
