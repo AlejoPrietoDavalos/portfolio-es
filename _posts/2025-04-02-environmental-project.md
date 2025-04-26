@@ -12,8 +12,9 @@ language: Python
 ---
 
 # Resumen:
-- Generé el código para abrir los datos satelitales y generar el dataset.
+- Generé el código para abrir los datos satelitales y crear el dataset.
 - Se abre con `PyTorch+TorchGeo` para `segmentación semántica multiclase`.
+- Hice la intersección espacial entre la imagen y la segmentación para obtener la máscara.
 - La clienta luego hará su estudio utilizando mi aporte.
 
 
@@ -26,6 +27,6 @@ language: Python
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
     <img src="/media/projects/environmental_project/image_with_labels.png" alt="Imagen satelital con label" style="max-width: 300px; width: 100%; height: auto;">
-    <p style="width: 100%; max-width: 300px;"><em><b>Figura 2:</b> Imagen de sentinel-2, la parte rosa en la cosa es una segmentación provista por la clienta con 8 categorías.</em></p>
+    <p style="width: 100%; max-width: 300px;"><em><b>Figura 2:</b> Imagen de sentinel-2, la parte rosa en la costa de la isla es una segmentación provista por la clienta. Tiene 9 categorías contando el background.</em></p>
   </div>
 </div>
