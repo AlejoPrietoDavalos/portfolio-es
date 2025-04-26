@@ -99,7 +99,6 @@ language: Python
       <audio controls style="max-width: 300px;">
         <source src="/portfolio-es/assets/audio/ynPjt2_Rb4I/drums.mp3" type="audio/mpeg">
       </audio>
-      <div style="width: 180px;"><strong>Adelantar hasta 0:17</strong></div>
     </div>
 
     <div style="display: flex; align-items: center; gap: 12px;">
@@ -155,7 +154,6 @@ language: Python
       <audio controls style="max-width: 300px;">
         <source src="/portfolio-es/assets/audio/5ViMA_qDKTU/drums.mp3" type="audio/mpeg">
       </audio>
-      <div style="width: 180px;"><strong>Adelantar hasta 0:17</strong></div>
     </div>
 
     <div style="display: flex; align-items: center; gap: 12px;">
@@ -163,6 +161,7 @@ language: Python
       <audio controls style="max-width: 300px;">
         <source src="/portfolio-es/assets/audio/5ViMA_qDKTU/bass.mp3" type="audio/mpeg">
       </audio>
+      <div style="width: 180px;"><strong>Adelantar hasta 0:05</strong></div>
     </div>
 
     <div style="display: flex; align-items: center; gap: 12px;">
@@ -178,7 +177,7 @@ language: Python
       <audio controls style="max-width: 300px;">
         <source src="/portfolio-es/assets/audio/5ViMA_qDKTU/vocals.mp3" type="audio/mpeg">
       </audio>
-      <div style="width: 180px;"><strong>Adelantar hasta 0:34</strong></div>
+      <div style="width: 180px;"><strong>Adelantar hasta 0:38</strong></div>
     </div>
 
     <div style="display: flex; align-items: center; gap: 12px;">
