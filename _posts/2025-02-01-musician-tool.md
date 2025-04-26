@@ -1,6 +1,6 @@
 ---
 author: alejo_prieto_davalos
-title: <span style="color:#078c0e;">[public]</span> Herramienta para músicos/as utilizando Machine Learning
+title: <span style="color:#078c0e;">[public]</span> Herramienta para músicos/as y DJ's utilizando Machine Learning
 date: 2025-02-01 12:00:00 +0000
 categories: [MachineLearning]
 tags: [librosa, fastapi, numpy, matplotlib]
@@ -11,15 +11,20 @@ image:
 language: Python
 ---
 
-
 # Resumen - Proyecto personal:
 - `Repositorio:` [https://github.com/AlejoPrietoDavalos/beatpy](https://github.com/AlejoPrietoDavalos/beatpy)
-- El objetivo es crear una aplicación para `músicos/as y DJ's`.
-- Yo lo uso para descargar canciones, separar la batería y practicar los ritmos.
+- El objetivo es crear una aplicación para `músicos/as y DJ's` utilizando técnicas de Machine Learning.
+- Lo uso para descargar canciones, separar la batería y practicar los ritmos.
+- Voy a generar más herramientas, primero para uso personal y luego para un uso comercial.
 1. Se `descarga el audio` de un video de `youtube` usando el `youtube_id` con [yt_dlp](https://pypi.org/project/yt-dlp/).
 2. Uso [spleeter](https://github.com/deezer/spleeter) para separar los `instrumentos en pistas` (tengo que mejorar/post-procesar el output).
-3. Uso [librosa](https://pypi.org/project/librosa/) para analizar datos tipo de audio.
+3. Uso [librosa](https://pypi.org/project/librosa/) para analizar datos tipo de audio, obtener el tempo y mas utilidades que exploraré.
 
+# Ideas a futuro
+- Detectar si la calidad del audio es mala, y mejorarla.
+- Mejorar como se calcula el tempo, y que pasa si la canción tiene tempo variable.
+- Hacer prueba de concepto: Clasificar segmentos de audio con notas de la batería.
+- Investigar como aplicar efectos al sonido.
 
 
 <details>
