@@ -1,7 +1,7 @@
 ---
 author: alejo_prieto_davalos
 title: <span style="color:#078c0e;">[public]</span> Herramienta para músicos/as utilizando Machine Learning
-date: 2024-04-01 12:00:00 +0000
+date: 2025-02-01 12:00:00 +0000
 categories: [MachineLearning]
 tags: [librosa, fastapi, numpy, matplotlib]
 image:
