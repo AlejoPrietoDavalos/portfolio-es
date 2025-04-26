@@ -14,6 +14,8 @@ language: Python
 # Resumen:
 - Automaticé con `Python` la generación del reporte de todas las encuestas a estudiantes.
 - Se genera el mismo reporte pero filtrado por `instituto`, `docente`, `materia`.
+- El total de PDF's generados eran entre `700~1000`.
+- Los PDF's se hacían manualmente por una persona durante 3 meses, mi script lo generaba en 1 día.
 
 
 ## Imágenes:
