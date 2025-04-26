@@ -1,7 +1,7 @@
 ---
 author: alejo_prieto_davalos
 title: <span style="color:#c90245;">[private]</span> Predicción del próximo día de compra de usuarios
-date: 2024-04-01 12:00:00 +0000
+date: 2024-05-01 12:00:00 +0000
 categories: [MachineLearning]
 tags: [numpy, pandas, matplotlib]
 image:
