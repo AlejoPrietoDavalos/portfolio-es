@@ -12,7 +12,7 @@ language: Python
 ---
 
 # Resumen:
-- Prueba de concepto para el uso de SpaCy y clasificar segmentos de texto.
+- Prueba de concepto para clasificar segmentos de texto usando `SpaCy`.
 - La calidad de los datos no me permitió seguir explorando, pero aprendí la técnica.
 
 # Imágenes:
