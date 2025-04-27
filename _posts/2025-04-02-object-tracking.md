@@ -15,9 +15,12 @@ language: Python
 - `Repositorio:` [https://github.com/AlejoPrietoDavalos/cvio](https://github.com/AlejoPrietoDavalos/cvio)
 
 
-<video autoplay loop muted>
-  <source src="https://res.cloudinary.com/dlwmswupb/video/upload/v1745790685/video_example_animation_evainm.mp4" type="video/mp4">
-</video>
+<div style="display: flex; gap: 20px;">
+  <video autoplay loop muted style="width: 45%;">
+    <source src="https://res.cloudinary.com/dlwmswupb/video/upload/v1745791238/video_example_with_points_jfmzz9.mp4" type="video/mp4">
+  </video>
 
-
-
+  <video autoplay loop muted style="width: 45%;">
+    <source src="https://res.cloudinary.com/dlwmswupb/video/upload/v1745790685/video_example_animation_evainm.mp4" type="video/mp4">
+  </video>
+</div>
