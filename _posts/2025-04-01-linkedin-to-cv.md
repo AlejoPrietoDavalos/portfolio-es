@@ -20,6 +20,6 @@ language: Python
 
 ## Imágenes:
 <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
-<img src="/media/projects/linkedin_to_cv/files.png" alt="Files data linkedin." style="max-width: 300px; width: 100%; height: auto;">
-<p style="width: 100%; max-width: 300px;"><em><b>Datos solicitados a LinkedIn.</b></em></p>
+  <img src="/media/projects/linkedin_to_cv/files.png" alt="Files data linkedin." style="max-width: 300px; width: 100%; height: auto;">
+  <p style="width: 100%; max-width: 300px;"><em><b>Datos solicitados a LinkedIn.</b></em></p>
 </div>
