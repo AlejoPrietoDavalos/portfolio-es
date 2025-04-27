@@ -1,6 +1,6 @@
 ---
 author: alejo_prieto_davalos
-title: <span style="color:#c90245;">[private]</span> Automatización y métricas de encuestas estudiantiles de la Universidad
+title: <span style="color:#c90245;">[private]</span> Automatización y métricas de encuestas estudiantiles de la universidad
 date: 2022-01-01 12:00:00 +0000
 categories: [Automation]
 tags: [pandas, matplotlib, fpdf]
