@@ -14,8 +14,10 @@ language: Python
 # Resumen - Prueba de concepto:
 - `Repositorio:` [https://github.com/AlejoPrietoDavalos/cvio](https://github.com/AlejoPrietoDavalos/cvio)
 
-<div style="display: flex; gap: 2px;">
-  <img src="/assets/img/video_example_tracking.gif" alt="GIF 1" style="width: 90%;" />
-  <img src="/assets/img/video_example_animation.gif" alt="GIF 2" style="width: 80%;" />
-</div>
+
+<video autoplay loop muted>
+  <source src="https://res.cloudinary.com/dlwmswupb/video/upload/v1745790685/video_example_animation_evainm.mp4" type="video/mp4">
+</video>
+
+
 
