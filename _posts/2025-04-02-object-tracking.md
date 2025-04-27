@@ -15,7 +15,7 @@ language: Python
 - `Repositorio:` [https://github.com/AlejoPrietoDavalos/cvio](https://github.com/AlejoPrietoDavalos/cvio)
 
 <div style="display: flex; gap: 2px;">
-  <img src="/portfolio-es/assets/gifs/video_example_tracking.gif" alt="GIF 1" style="width: 90%;" />
-  <img src="/portfolio-es/assets/gifs/video_example_animation.gif" alt="GIF 2" style="width: 80%;" />
+  <img src="/assets/gifs/video_example_tracking.gif" alt="GIF 1" style="width: 90%;" />
+  <img src="/assets/gifs/video_example_animation.gif" alt="GIF 2" style="width: 80%;" />
 </div>
 
