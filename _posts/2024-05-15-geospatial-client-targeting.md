@@ -18,7 +18,7 @@ language: Python
 
 ## Flujo del sistema
 1. Genero circunferencias de `50km (cantidad máxima permitida por Google)` que cubren el pais.
-2. Utilicé `Google Places` y por cada circunferencia recolecta los clientes potenciales dentro del pais.
+2. Utilicé `Google Places` para recolectar los clientes potenciales para cada circunferencia dentro del pais.
 3. Utilicé `Open Street Map (OSM)` para extraer puntos de interés `[bancos - escuelas - gimnacios - hospitales - clínicas - centro comercial]`.
 4. `Premisa:` Lugares con mayor densidad de puntos están más poblados y los clientes potenciales deberían tener mayor poder de compra.
 5. Del total de clientes, hice un clustering `(KMeans)` usando la cercanía espacial como features.
