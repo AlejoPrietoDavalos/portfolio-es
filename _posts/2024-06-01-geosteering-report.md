@@ -12,14 +12,15 @@ language: Python
 ---
 
 # Resumen:
-- Me contrataron para hacer el `backend` de la `app de escritorio para Windows`.
-- Flujo `OAuth2 en Google y Microsoft`.
-- `Sistema de licencias` para invalidar el producto.
-- Extracción de los datos desde el software de `starsteer` usando su `API de Python`.
-- Documenté la `API de Python` de starsteer (no tienen documentación de su API).
-- `Chatbot (LLM) con Ollama` alimentado con los datos extraídos, ejecución en `local` o `cloud`.
-- Ofuscación del código y creación de ejecutable con `pyinstaller+pyarmor`.
-- Creación del instalable de Windows con `Inno Setup`.
+- Me contrataron para hacer el `backend` de la aplicación y el ejecutable para `Windows`.
+- La app extrae los datos y los muestra en un frontend en [Dash](https://pypi.org/project/dash/).
+- Luego el usuario puede generar un `.pdf` con el reporte y enviarlo por mail desde la app.
+1. Extracción de los datos desde el software de `starsteer` usando su `API de Python`.
+2. `Chatbot (LLM) con Ollama` alimentado con los datos extraídos, ejecución en `local` o `cloud`.
+3. Flujo `OAuth2 en Google y Microsoft`.
+4. `Sistema de licencias` para invalidar el producto.
+5. Ofuscación del código y creación de ejecutable con `pyinstaller+pyarmor`.
+6. Creación del instalable de Windows con `Inno Setup`.
 
 
 ## Imágenes:
