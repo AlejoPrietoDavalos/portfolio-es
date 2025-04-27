@@ -12,9 +12,8 @@ language: Python
 ---
 
 # Resumen:
-- Me dieron un dataset de compras de usuarios en un año.
+- Dado un dataset de compras de usuarios en un año debía predecir, para cada `user_id`, qué `product_id` compraría y en qué fecha.
 - Las columnas eran 4: `user_id`, `product_id`, `date`, `quantity`.
-- Tenía que predecir, para cada `user_id`, qué `product_id` compraría y en qué fecha.
 - Usé la Transformada Rápida de Fourier para ver la serie de compras como `Amplitud vs Frecuencia`.
 - Solo considero las frecuencias que sean máximos locales y me quedo con la más alta de ellas.
 - Como `f=1/T`, obtengo el periodo `T`. Y se lo sumo al último dia de compra para predecir cuando volverá a comprar ese producto.
