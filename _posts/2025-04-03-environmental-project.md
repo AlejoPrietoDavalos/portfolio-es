@@ -1,7 +1,7 @@
 ---
 author: alejo_prieto_davalos
 title: <span style="color:#c90245;">[private]</span> Colaboración en proyecto ambiental con Imágenes Satelitales y PyTorch+TorchGeo
-date: 2025-04-02 12:00:00 +0000
+date: 2025-04-03 12:00:00 +0000
 categories: [GeoSpatial, Satellite, AI, ObjectDetection]
 tags: [satellite_imagery, pytorch, torchgeo, rasterio, qgis, numpy, matplotlib]
 image:
