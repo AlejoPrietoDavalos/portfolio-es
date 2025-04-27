@@ -15,3 +15,4 @@ media/projects/object_tracking/video_example_tracking.gif filter=lfs diff=lfs me
 *.gif filter=lfs diff=lfs merge=lfs -text
 media/projects/object_tracking/*.gif filter=lfs diff=lfs merge=lfs -text
 assets/gifs/*.gif filter=lfs diff=lfs merge=lfs -text
+assets/img/*.gif filter=lfs diff=lfs merge=lfs -text
