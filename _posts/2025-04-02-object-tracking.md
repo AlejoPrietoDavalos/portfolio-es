@@ -1,6 +1,6 @@
 ---
 author: alejo_prieto_davalos
-title: <span style="color:#078c0e;">[public]</span> Computer Vision para Tracking + Referenciar en el plano del piso
+title: <span style="color:#078c0e;">[public]</span> Computer Vision - Detección + Tracking + Referenciar en el plano del piso.
 date: 2025-04-02 12:00:00 +0000
 categories: [ComputerVision, ObjectDetection]
 tags: [opencv, numpy, matplotlib]
@@ -15,6 +15,7 @@ language: Python
 - `Repositorio:` [https://github.com/AlejoPrietoDavalos/cvio](https://github.com/AlejoPrietoDavalos/cvio)
 
 <div style="display: flex; gap: 2px;">
-  <img src="/media/projects/object_tracking/video_example_tracking.gif" alt="GIF 1" style="width: 90%;" />
-  <img src="/media/projects/object_tracking/video_example_animation.gif" alt="GIF 2" style="width: 80%;" />
+  <img src="/assets/gifs/video_example_tracking.gif" alt="GIF 1" style="width: 90%;" />
+  <img src="/assets/gifs/video_example_animation.gif" alt="GIF 2" style="width: 80%;" />
 </div>
+

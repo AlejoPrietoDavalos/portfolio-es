@@ -11,24 +11,9 @@ image:
 language: Python
 ---
 
-# Resumen - Proyecto personal:
-- `Repositorio:` [https://github.com/AlejoPrietoDavalos/beatpy](https://github.com/AlejoPrietoDavalos/beatpy)
-- El objetivo es crear una aplicación para `músicos/as y DJ's` utilizando técnicas de Machine Learning.
-- Lo uso para descargar canciones, separar la batería y practicar los ritmos.
-- Voy a generar más herramientas, primero para uso personal y luego para un uso comercial.
-1. Se `descarga el audio` de un video de `youtube` usando el `youtube_id` con [yt_dlp](https://pypi.org/project/yt-dlp/).
-2. Uso [spleeter](https://github.com/deezer/spleeter) para separar los `instrumentos en pistas` (tengo que mejorar/post-procesar el output).
-3. Uso [librosa](https://pypi.org/project/librosa/) para analizar datos tipo de audio, obtener el tempo y mas utilidades que exploraré.
-
-# Ideas a futuro
-- Detectar si la calidad del audio es mala, y mejorarla.
-- Mejorar como se calcula el tempo, y que pasa si la canción tiene tempo variable.
-- Hacer prueba de concepto: Clasificar segmentos de audio con notas de la batería.
-- Investigar como aplicar efectos al sonido.
-
 
 <details>
-  <summary><strong>(♫ 🎵 ♫ 🎵)  Depeche Mode - World In My Eyes (1990)</strong></summary>
+  <summary style="color: #4CAF50;"><strong>(Example) - (♫ 🎵 ♫ 🎵) Depeche Mode - World In My Eyes (1990)</strong></summary>
   <div style="margin-top: 8px; display: flex; flex-direction: column; gap: 8px;">
 
     <div style="display: flex; align-items: center; gap: 12px;">
@@ -84,7 +69,7 @@ language: Python
 
 
 <details>
-  <summary><strong>(♫ 🎵 ♫ 🎵)  Sumo - El cieguito volador (1987)</strong></summary>
+  <summary style="color: #4CAF50;"><strong>(Example) - (♫ 🎵 ♫ 🎵) Sumo - El cieguito volador (1987)</strong></summary>
   <div style="margin-top: 8px; display: flex; flex-direction: column; gap: 8px;">
 
     <div style="display: flex; align-items: center; gap: 12px;">
@@ -139,7 +124,7 @@ language: Python
 
 
 <details>
-  <summary><strong>(♫ 🎵 ♫ 🎵)  Joy Division - Isolation (1980)</strong></summary>
+  <summary style="color: #4CAF50;"><strong>(Example) - (♫ 🎵 ♫ 🎵) Joy Division - Isolation (1980)</strong></summary>
   <div style="margin-top: 8px; display: flex; flex-direction: column; gap: 8px;">
 
     <div style="display: flex; align-items: center; gap: 12px;">
@@ -189,6 +174,23 @@ language: Python
 
   </div>
 </details>
+
+
+# Resumen - Proyecto personal:
+- `Repositorio:` [https://github.com/AlejoPrietoDavalos/beatpy](https://github.com/AlejoPrietoDavalos/beatpy)
+- El objetivo es crear una aplicación para `músicos/as y DJ's` utilizando técnicas de Machine Learning.
+- Lo uso para descargar canciones, separar la batería y practicar los ritmos.
+- Voy a generar más herramientas, primero para uso personal y luego para un uso comercial.
+1. Se `descarga el audio` de un video de `youtube` usando el `youtube_id` con [yt_dlp](https://pypi.org/project/yt-dlp/).
+2. Uso [spleeter](https://github.com/deezer/spleeter) para separar los `instrumentos en pistas` (tengo que mejorar/post-procesar el output).
+3. Uso [librosa](https://pypi.org/project/librosa/) para analizar datos tipo de audio, obtener el tempo y mas utilidades que exploraré.
+
+
+# Ideas a futuro
+- Detectar si la calidad del audio es mala, y mejorarla.
+- Mejorar como se calcula el tempo, y que pasa si la canción tiene tempo variable.
+- Hacer prueba de concepto: Clasificar segmentos de audio con notas de la batería.
+- Investigar como aplicar efectos al sonido.
 
 
 ## Imágenes:
