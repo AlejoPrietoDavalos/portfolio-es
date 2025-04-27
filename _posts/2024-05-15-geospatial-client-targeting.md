@@ -13,8 +13,9 @@ language: Python
 
 # Resumen - Prueba de concepto:
 - El sistema recopila y rankea clientes potenciales (del rubro que sea) dentro de cualquier país objetivo.
-- `Limitación 1:` La `API de Google Places` es muy cara para el tamaño de un pais `($600 por todo México)`.
+- `Limitación 1:` La `API de Google Places` es costosa para el tamaño de un pais `($600 por todo México)`.
 - `Limitación 2:` Los datos de OSM son abiertos pero incompletos, puede faltar información en zonas alejadas.
+
 
 ## Flujo del sistema
 1. Genero circunferencias de `50km (cantidad máxima permitida por Google)` que cubren el pais.
@@ -27,7 +28,6 @@ language: Python
 
 
 ## Imágenes:
-- Ejemplo del sistema para 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
