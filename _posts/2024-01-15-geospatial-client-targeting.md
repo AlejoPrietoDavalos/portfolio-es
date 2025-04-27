@@ -1,7 +1,7 @@
 ---
 author: alejo_prieto_davalos
 title: <span style="color:#c90245;">[private]</span> Recopilación y ranking de posibles clientes usando datos geoespaciales
-date: 2024-01-15 12:00:00 +0000
+date: 2024-05-01 12:00:00 +0000
 categories: [GeoSpatial]
 tags: [geopandas, matplotlib, qgis, google_places]
 image:
@@ -11,18 +11,23 @@ image:
 language: Python
 ---
 
-# Resumen:
-- Desarrollé un sistema que recopila y rankea a los clientes potenciales más probables dentro de cualquier país objetivo.
-1. Genero circunferencias de `50km (cantidad máxima permitida por Google)` que cubren toda la zona del pais.
+# Resumen - Prueba de concepto:
+- El sistema recopila y rankea clientes potenciales (del rubro que sea) dentro de cualquier país objetivo.
+- `Limitación 1:` La `API de Google Places` es muy cara para el tamaño de un pais `($600 por todo México)`. Lo vuelve inviable para el uso que se le quería dar.
+- `Limitación 2:` Los datos de OSM son abiertos pero incompletos, puede faltar información en zonas alejadas.
+
+## Flujo del sistema
+1. Genero circunferencias de `50km (cantidad máxima permitida por Google)` que cubren el pais.
 2. Utilicé `Google Places` y por cada circunferencia recolecta los clientes potenciales dentro del pais.
-3. Utilicé Open Street Map `(OSM)` para extraer puntos de interés `[bancos - escuelas - gimnacios - hospitales - clínicas - centro comercial]`.
-4. La premisa es que lugares con mayor densidad de estos puntos, son lugares más poblados y los clientes potenciales deberían tener mayor poder de compra.
-4. Del total de clientes, hice un clustering `(KMeans)` usando la cercanía espacial como features.
-5. Con un total de 4 clusters. Uno de ellos corresponde a clientes que están en lugares `alejados (puntos blancos)`.
-6. Al momento de intentar conseguir clientes, el `responsable de ventas` debía utilizar último a los `clientes alejados`.
+3. Utilicé `Open Street Map (OSM)` para extraer puntos de interés `[bancos - escuelas - gimnacios - hospitales - clínicas - centro comercial]`.
+4. `Premisa:` Lugares con mayor densidad de puntos están más poblados y los clientes potenciales deberían tener mayor poder de compra.
+5. Del total de clientes, hice un clustering `(KMeans)` usando la cercanía espacial como features.
+6. El método del codo marca 3-4 clusters, uno de ellos clasifica `puntos alejados (puntos blancos)`.
+7. Eliminando esos puntos obtenemos clientes potenciales de calidad para llamar a esos antes que otros.
 
 
-# Imágenes:
+## Imágenes:
+- Ejemplo del sistema para 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
@@ -31,8 +36,8 @@ language: Python
   </div>
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
-    <img src="/media/projects/geospatial_client_targeting/cluster_centroids.jpeg" alt="Detector Prediction" style="max-width: 300px; width: 100%; height: auto;">
-    <p style="width: 100%; max-width: 300px;"><em><b>Figura 2:</b> Predicción del modelo. Los puntos verdes es la posición real, los blancos diferentes predicciones del modelo con % de confianza.</em></p>
+    <img src="/media/projects/geospatial_client_targeting/cluster_centroids.jpeg" alt="Cluster centroids" style="max-width: 300px; width: 100%; height: auto;">
+    <p style="width: 100%; max-width: 300px;"><em><b>Figura 2:</b> Centroides por cada cluster.</em></p>
   </div>
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
@@ -42,7 +47,7 @@ language: Python
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
     <img src="/media/projects/geospatial_client_targeting/world.png" alt="Clustering World" style="max-width: 300px; width: 100%; height: auto;">
-    <p style="width: 100%; max-width: 300px;"><em><b>Figura 4:</b> Países donde ejecuté el script [México, Argentina, España, Brasil, Colombia]. Aunque funciona para cualquier otro del mundo.</em></p>
+    <p style="width: 100%; max-width: 300px;"><em><b>Figura 4:</b> Países donde generé las circunferencias [México, Argentina, España, Brasil, Colombia]. Aunque funciona para cualquier otro del mundo.</em></p>
   </div>
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
