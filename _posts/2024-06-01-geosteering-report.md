@@ -3,7 +3,7 @@ author: alejo_prieto_davalos
 title: <span style="color:#c90245;">[private]</span> App de escritorio para extracción y reporte de datos de geonavegación
 date: 2024-06-01 12:00:00 +0000
 categories: [Automation]
-tags: [ollama, numpy, pandas, matplotlib, pyinstaller, pyarmor, oauth2]
+tags: [pyinstaller, pyarmor, dash, ollama, numpy, pandas, matplotlib, oauth2]
 image:
   path: /media/projects/geosteering_report/login_and_license.jpeg
   height: 100
@@ -23,5 +23,17 @@ language: Python
 
 
 ## Imágenes:
-<img src="/media/projects/geosteering_report/geosteering.jpeg" alt="Geosteering 3D.">
+<div>
+  <img src="/media/projects/geosteering_report/app.jpeg" alt="App ejemplo.">
+  <p><em><b>Figura 1:</b> Muestra de los datos extraídos dentro de la app.</em></p>
+</div>
 
+<div>
+  <img src="/media/projects/geosteering_report/geosteering.jpeg" alt="Geosteering 3D.">
+  <p><em><b>Figura 2:</b> Datos de geonavegación en 3D.</em></p>
+</div>
+
+<div>
+  <img src="/media/projects/geosteering_report/chatbot.jpeg" alt="Chatbot.">
+  <p><em><b>Figura 3:</b> Chatbot con Ollama, usa los datos extraídos para responder. Posibilidad de usar en local o cloud (configurable).</em></p>
+</div>
