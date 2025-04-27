@@ -1,7 +1,7 @@
 ---
 author: alejo_prieto_davalos
-title: <span style="color:#c90245;">[private]</span> Recopilación y ranking de posibles clientes usando datos geoespaciales
-date: 2024-05-01 12:00:00 +0000
+title: <span style="color:#c90245;">[private]</span> Recopilación de posibles clientes con datos geoespaciales (Prueba de concepto)
+date: 2024-05-15 12:00:00 +0000
 categories: [GeoSpatial]
 tags: [geopandas, matplotlib, qgis, google_places]
 image:
@@ -13,7 +13,7 @@ language: Python
 
 # Resumen - Prueba de concepto:
 - El sistema recopila y rankea clientes potenciales (del rubro que sea) dentro de cualquier país objetivo.
-- `Limitación 1:` La `API de Google Places` es muy cara para el tamaño de un pais `($600 por todo México)`. Lo vuelve inviable para el uso que se le quería dar.
+- `Limitación 1:` La `API de Google Places` es muy cara para el tamaño de un pais `($600 por todo México)`.
 - `Limitación 2:` Los datos de OSM son abiertos pero incompletos, puede faltar información en zonas alejadas.
 
 ## Flujo del sistema
