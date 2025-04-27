@@ -11,8 +11,8 @@ image:
 language: Python
 ---
 
-# Resumen:
-- Prueba de concepto para clasificar segmentos de texto usando `SpaCy`.
+# Resumen - Prueba de concepto:
+- Clasificación de segmentos de texto usando `SpaCy`.
 - La calidad de los datos no me permitió seguir explorando, pero aprendí la técnica.
 
 # Imágenes:
