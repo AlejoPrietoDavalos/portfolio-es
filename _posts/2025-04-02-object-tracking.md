@@ -24,3 +24,9 @@ language: Python
     <source src="https://res.cloudinary.com/dlwmswupb/video/upload/v1745790685/video_example_animation_evainm.mp4" type="video/mp4">
   </video>
 </div>
+
+## Imágenes:
+<div style="flex-basis: 48%; margin-bottom: 20px; text-align: justify;">
+  <img src="/media/projects/object_tracking/measures_2.png" alt="Measures." style="width: 100%; height: auto;">
+  <p style="width: 100%;"><em><b>Figura 1:</b> Se mide todo el patio para tener referenciado el contorno de las paredes, y calcular la homografía que permite referenciar el punto detectado al plano del piso.</em></p>
+</div>
