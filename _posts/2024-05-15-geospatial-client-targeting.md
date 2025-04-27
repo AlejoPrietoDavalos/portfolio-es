@@ -2,7 +2,7 @@
 author: alejo_prieto_davalos
 title: <span style="color:#c90245;">[private]</span> Recopilación de posibles clientes con datos geoespaciales (Prueba de concepto)
 date: 2024-05-15 12:00:00 +0000
-categories: [GeoSpatial]
+categories: [GeoSpatial, MachineLearning]
 tags: [geopandas, matplotlib, qgis, google_places]
 image:
   path: /media/projects/geospatial_client_targeting/clustering_mx.png
