@@ -183,7 +183,7 @@ language: Python
 - Voy a generar más herramientas, primero para uso personal y luego para un uso comercial.
 1. Se `descarga el audio` de un video de `youtube` usando el `youtube_id` con [yt_dlp](https://pypi.org/project/yt-dlp/).
 2. Uso [spleeter](https://github.com/deezer/spleeter) para separar los `instrumentos en pistas` (tengo que mejorar/post-procesar el output).
-3. Uso [librosa](https://pypi.org/project/librosa/) para analizar datos tipo de audio, obtener el tempo y mas utilidades que exploraré.
+3. Uso [librosa](https://pypi.org/project/librosa/) para analizar datos de tipo audio, obtener el tempo y mas utilidades que exploraré.
 
 
 # Ideas a futuro
